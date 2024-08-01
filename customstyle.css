@@ -1,0 +1,109 @@
+.customized-cakes {
+    text-align: center;
+    padding: 50px 0;
+    color:#ffffff;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/background2.png);
+    background-size: cover;
+  }
+  
+  .customized-cakes h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    /* margin-left: 150px; */
+    border-bottom: 2px solid rgba(161, 109, 14, 1);
+    text-shadow: 1px 1px 1px black;
+    /* width: 75%; */
+  }
+  
+  .customized-cakes p {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group select,
+  .form-group textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 30px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgba(161, 109, 14, 1);
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  #navbar{
+    background-color: #573818;
+    padding-left: 60px;
+    font-weight: bold;
+    border-bottom: #a16d0e 2px solid;
+}
+#logo{
+    font-size: 23px;
+    color: white;
+}
+#logo img{
+    margin-bottom: 15px;
+}
+.navbar-nav{
+    margin-left: -20px;
+}
+.navbar-nav .nav-item{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+    transition: 0.5s ease;
+}
+.nav-link:hover{
+    background-color: rgba(161,109,14,1);
+    color: white;
+    border-radius: 5px;
+}
+.icons{
+    margin-left: 30px;
+}
+.icons img{
+    width: 30px;
+    margin-left: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.icons img:hover{
+    transform: translateY(-5px);
+}
+@media screen and (max-width:330px){
+    #logo{
+        font-size: 15px;
+    }
+}
+label{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-size: 20px;
+}
